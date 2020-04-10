@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Гриль Бутыль - Доставка еды на дом</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css"> 
+	<link rel="stylesheet" href="css/animate.css"> 
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<a href="index.html" class="logo">
+				<img src="img/logo.svg" alt="logo" />
+			</a>
+			<input type="text" class="input input-address" placeholder="Адрес доставки" />
+			<div class="buttons">
+				<button class="button button-primary">
+					<img src="img/user.svg" alt="user" class="button-icon">
+					<span class="button-text">Войти</span>
+				</button>
+				<button class="button" id="cart-button">
+					<img src="img/shopping-cart.svg" alt="shopping cart" class="button-icon">
+					<span class="button-text">Корзина</span>
+				</button>
+			</div>
+		</header>
+	</div>
+	<!-- /.container -->
+
+	<main class="main">
+		<div class="container">
+
+		<section class="restaurants">
+			<div class="section-heading">
+				<h2 class="section-title">Гриль Бутыль</h2>
+				<div class="card-info">
+							<div class="rating-root">
+								<div class="rating-new">
+									Новый
+								</div>
+							</div>
+							<div class="price">От 175 ₽</div>
+							<div class="category">Гриль</div>
+						</div>
+						<!-- /.card-info -->
+			</div>
+			<div class="cards">
+
+				<div class="card wow fadeInUp" data-wow-delay="0.2s">
+					<img src="img/restaurant-menu/1.jpg" alt="image" class="card-image" />
+					<div class="card-text">
+						<div class="card-heading">
+							<h3 class="card-title card-title-reg">Шашлык из свинины</h3>
+						</div>
+						<!-- /.card-heading -->
+						<div class="card-info">
+							<div class="ingredients">Подается с лавашем, маринованным луком, картофелем по-деревенски</div>
+						</div>	
+						<!-- /.card-info -->
+						<div class="card-buttons">
+							<button class="button button-primary">
+							<span class="button-card-text">В корзину</span>
+							<img src="img/shopping-cart-white.svg"" alt="shopping-cart" class="button-card-image">
+							</button>
+							<strong class="card-price-bold">280 ₽</strong>
+						</div>
+					</div>
+					<!-- /.card-text -->
+				</div>
+				<!-- /.card -->
+
+				<div class="card wow fadeInUp" data-wow-delay="0.4s">
+					<img src="img/restaurant-menu/2.jpg" alt="image" class="card-image" />
+					<div class="card-text">
+						<div class="card-heading">
+							<h3 class="card-title card-title-reg">Салат Цезарь с курицей</h3>
+						</div>
+						<!-- /.card-heading -->
+						<div class="card-info">
+							<div class="ingredients">Куриная грудка, свежие помидоры, лист салата, сухарики. Подается с соусом цезарь</div>
+						</div>	
+						<!-- /.card-info -->
+						<div class="card-buttons">
+							<button class="button button-primary">
+							<span class="button-card-text">В корзину</span>
+							<img src="img/shopping-cart-white.svg"" alt="shopping-cart" class="button-card-image">
+							</button>
+							<strong class="card-price-bold">190 ₽</strong>
+						</div>
+					</div>
+					<!-- /.card-text -->
+				</div>
+				<!-- /.card -->
+
+				<div class="card wow fadeInUp" data-wow-delay="0.6s">
+					<img src="img/restaurant-menu/3.jpg" alt="image" class="card-image" />
+					<div class="card-text">
+						<div class="card-heading">
+							<h3 class="card-title card-title-reg">Люля-кебаб из курицы</h3>
+						</div>
+						<!-- /.card-heading -->
+						<div class="card-info">
+							<div class="ingredients">Подается с лавашем, маринованным луком, картофелем по-деревенски</div>
+						</div>	
+						<!-- /.card-info -->
+						<div class="card-buttons">
+							<button class="button button-primary">
+							<span class="button-card-text">В корзину</span>
+							<img src="img/shopping-cart-white.svg"" alt="shopping-cart" class="button-card-image">
+							</button>
+							<strong class="card-price-bold">260 ₽</strong>
+						</div>
+					</div>
+					<!-- /.card-text -->
+				</div>
+				<!-- /.card -->
+
+				<div class="card wow fadeInUp" data-wow-delay="0.2s">
+					<img src="img/restaurant-menu/4.jpg" alt="image" class="card-image" />
+					<div class="card-text">
+						<div class="card-heading">
+							<h3 class="card-title card-title-reg">Ребра свиные Барбекю</h3>
+						</div>
+						<!-- /.card-heading -->
+						<div class="card-info">
+							<div class="ingredients">С картофелем по-деревенски</div>
+						</div>	
+						<!-- /.card-info -->
+						<div class="card-buttons">
+							<button class="button button-primary">
+							<span class="button-card-text">В корзину</span>
+							<img src="img/shopping-cart-white.svg"" alt="shopping-cart" class="button-card-image">
+							</button>
+							<strong class="card-price-bold">340 ₽</strong>
+						</div>
+					</div>
+					<!-- /.card-text -->
+				</div>
+				<!-- /.card -->
+
+				<div class="card wow fadeInUp" data-wow-delay="0.4s">
+					<img src="img/restaurant-menu/5.jpg" alt="image" class="card-image" />
+					<div class="card-text">
+						<div class="card-heading">
+							<h3 class="card-title card-title-reg">Шашлык из курицы</h3>
+						</div>
+						<!-- /.card-heading -->
+						<div class="card-info">
+							<div class="ingredients">Подается с лавашем, маринованным луком, картофелем по-деревенски</div>
+						</div>	
+						<!-- /.card-info -->
+						<div class="card-buttons">
+							<button class="button button-primary">
+							<span class="button-card-text">В корзину</span>
+							<img src="img/shopping-cart-white.svg"" alt="shopping-cart" class="button-card-image">
+							</button>
+							<strong class="card-price-bold">260 ₽</strong>
+						</div>
+					</div>
+					<!-- /.card-text -->
+				</div>
+				<!-- /.card -->
+
+				<div class="card wow fadeInUp" data-wow-delay="0.6s">
+					<img src="img/restaurant-menu/6.jpg" alt="image" class="card-image" />
+					<div class="card-text">
+						<div class="card-heading">
+							<h3 class="card-title card-title-reg">Кесадилья с курицей</h3>
+						</div>
+						<!-- /.card-heading -->
+						<div class="card-info">
+							<div class="ingredients">Лепешка тортилья, сыр, куриная грудка, перец болгарский, лук репчатый, кукуруза, соус мексиканский</div>
+						</div>	
+						<!-- /.card-info -->
+						<div class="card-buttons">
+							<button class="button button-primary">
+							<span class="button-card-text">В корзину</span>
+							<img src="img/shopping-cart-white.svg"" alt="shopping-cart" class="button-card-image">
+							</button>
+							<strong class="card-price-bold">240 ₽</strong>
+						</div>
+					</div>
+					<!-- /.card-text -->
+				</div>
+				<!-- /.card -->
+
+			</div>
+			<!-- /.cards -->
+		</section>
+		</div>
+		<!-- /.container -->
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-block">
+				<a href="index.html" class="logo">
+					<img src="img/logo.svg" alt="logo" />
+				</a>
+				<nav class="footer-nav">
+					<a href="#" class="footer-link">Ресторанам</a>
+					<a href="#" class="footer-link">Курьерам</a>
+					<a href="#" class="footer-link">Пресс-центр</a>
+					<a href="#" class="footer-link">Контакты</a>
+				</nav>
+				<div class="social-links">
+					<a href="#" class="social-link"><img src="img/instagram.svg" alt="instagram" /></a>
+					<a href="#" class="social-link"><img src="img/facebook.svg" alt="facebook" /></a>
+					<a href="#" class="social-link"><img src="img/vk.svg" alt="vk" /></a>
+				</div>
+				<!-- /.social-links -->
+			</div>
+			<!-- /.footer-block -->
+		</div>
+	</footer>
+
+	<div class="modal">
+		<div class="modal-dialog">
+			<div class="modal-header">
+				<h3 class="modal-title">Корзина</h3>
+				<button class="close">&times;</button>
+			</div>
+			<!-- /.modal-header -->
+			<div class="modal-body">
+				<div class="food-row">
+					<span class="food-name">Шашлык из свинины	</span>
+					<strong class="food-price">280 ₽</strong>
+					<div class="food-counter">
+						<button class="counter-button">-</button>
+						<span class="counter">1</span>
+						<button class="counter-button">+</button>
+					</div>
+				</div>
+				<div class="food-row">
+					<span class="food-name">Салат Цезарь с курицей</span>
+					<strong class="food-price">190 ₽</strong>
+					<div class="food-counter">
+						<button class="counter-button">-</button>
+						<span class="counter">1</span>
+						<button class="counter-button">+</button>
+					</div>
+				</div>
+				<div class="food-row">
+					<span class="food-name">Люля-кебаб из курицы</span>
+					<strong class="food-price">260 ₽</strong>
+					<div class="food-counter">
+						<button class="counter-button">-</button>
+						<span class="counter">1</span>
+						<button class="counter-button">+</button>
+					</div>
+				</div>
+				<div class="food-row">
+					<span class="food-name">Ребра свиные Барбекю</span>
+					<strong class="food-price">340 ₽</strong>
+					<div class="food-counter">
+						<button class="counter-button">-</button>
+						<span class="counter">1</span>
+						<button class="counter-button">+</button>
+					</div>
+				</div>
+				<!-- /.foods-row -->
+			</div>
+			<!-- /.modal-body -->
+			<div class="modal-footer">
+				<span class="modal-pricetag">1070 ₽</span>
+				<div class="footer-buttons">
+					<button class="button button-primary">Оформить заказ</button>
+					<button class="button">Отмена</button>
+				</div>
+			</div>
+			<!-- /.modal-footer -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+	<script src="js/wow.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
